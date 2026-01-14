@@ -1,0 +1,48 @@
+.button {
+  display: none;
+  width: 32px;
+  height: 24px;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #333;
+  left: 0;
+  transition: 0.3s;
+}
+
+.button span:nth-child(1) {
+  top: 0;
+}
+.button span:nth-child(2) {
+  top: 11px;
+}
+.button span:nth-child(3) {
+  bottom: 0;
+}
+
+/* 開いた時 */
+.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 11px;
+}
+.open span:nth-child(2) {
+  opacity: 0;
+}
+.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  bottom: 11px;
+}
+
+/* スマホ */
+@media (max-width: 768px) {
+  .button {
+    display: block;
+  }
+}

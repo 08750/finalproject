@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 100px;
+  gap: 60px;
+}
+
+.Doglogo {
+  width: 400px;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+}
+
+.text {
+  max-width: 520px;
+  line-height: 1.8;
+  font-size: 0.95rem;
+}

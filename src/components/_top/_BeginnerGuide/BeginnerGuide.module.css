@@ -1,0 +1,22 @@
+.wrapper {
+  text-align: center;
+  margin: 6rem auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 3rem;
+  letter-spacing: 0.1em;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 0.95rem;
+  line-height: 2;
+  margin-bottom: 2.5rem;
+  color: #555;
+  margin-bottom: 3.5rem;
+}

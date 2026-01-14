@@ -1,0 +1,64 @@
+.section {
+  padding: 6rem 1rem;
+  background: #fcfaf4;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.list {
+  max-width: 720px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  border-bottom: 1px solid #ddd;
+}
+
+/* 質問 */
+.question {
+  width: 100%;
+  background: none;
+  border: none;
+  padding: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.q {
+  font-weight: bold;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+}
+
+/* 矢印 */
+.arrow {
+  transition: transform 0.3s;
+}
+
+.open {
+  transform: rotate(180deg);
+}
+
+/* 答え */
+.answer {
+  padding: 0.5rem 0 1.2rem 2rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.buttonWrapper {
+  text-align: center;
+  margin-top: 6rem; /* 上の box との間隔 */
+}

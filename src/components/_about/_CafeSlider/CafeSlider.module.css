@@ -1,0 +1,113 @@
+.section {
+  position: relative;
+  padding: 5rem 1rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.card {
+  position: relative;
+  max-width: 1100px; /* ← 420 → 520 に */
+  min-height: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 4.5rem 2rem 4rem; /* ← 全体に余白アップ */
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.arrow {
+  position: absolute;
+  bottom: -32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow img {
+  width: 72px;
+}
+
+.left {
+  left: -24px;
+}
+
+.right {
+  right: -24px;
+}
+
+/* 犬の画像 */
+.imageBox {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 4.5rem;
+  overflow: hidden;
+}
+
+.imageBox img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.sliderWrapper {
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.slide {
+  min-width: 100%;
+  padding: 0 0.5rem;
+}
+
+.inner {
+  max-width: 1100px; /* ← 他セクションと完全一致 */
+  margin: 0 auto;
+  position: relative;
+}
+
+.cardInner {
+  max-width: 640px; /* ← 中央の読みやすい幅 */
+  margin: 0 auto;
+}
+
+.contentBox {
+  max-width: 800px; /* ← 犬画像と同じ幅 */
+  margin: 0 auto;
+}
+.text {
+  text-align: left;
+  line-height: 1.8;
+  word-break: break-word;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: #7a6a55;
+  margin-bottom: 1.6rem;
+}
+
+.subTitle {
+  position: relative;
+  text-align: center;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: #7a6a55;
+  margin-bottom: 1.6rem;
+  padding-bottom: 0.6rem; /* ← 線との余白 */
+}
+
+.subTitle::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 230px; /* ← 線の長さ */
+  height: 1.5px; /* ← 線の太さ */
+  background-color: #d8c7a6; /* 優しいベージュ */
+}

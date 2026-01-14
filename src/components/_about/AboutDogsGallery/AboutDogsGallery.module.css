@@ -1,0 +1,21 @@
+.dogGallerySection {
+  padding: 4rem 1rem;
+  background-color: #fcfaf4;
+}
+
+/* 4枚を必ず横並び・縮小対応 */
+.galleryWrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+/* 画面がかなり小さい場合も対応 */
+@media (max-width: 768px) {
+  .galleryWrapper {
+    gap: 1rem;
+  }
+}

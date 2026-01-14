@@ -1,0 +1,53 @@
+.section {
+  padding: 6rem 1rem;
+  background-color: #fcfaf4;
+  text-align: center;
+}
+
+.content {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.9rem;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2rem;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 420px;
+  height: 1px;
+  background: #c9bfae;
+  margin-top: 0.6rem;
+}
+
+.text {
+  text-align: left;
+  line-height: 2;
+  font-size: 0.95rem;
+}
+
+.buttonWrapper {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .text {
+    font-size: 0.95rem;
+    padding: 0 0.5rem;
+  }
+  .title::after {
+    width: 320px;
+  }
+}
