@@ -1,5 +1,13 @@
-/* .header {
-  width: 100%;
-  background-color: #fff9b0;
-  padding: 1rem 0;
-} */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 2rem;
+  background-color: #d8c7a6;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  flex-shrink: 0; /* ← 重要：縮まない */
+}
