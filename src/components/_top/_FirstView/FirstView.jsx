@@ -1,4 +1,4 @@
-import styles from "./Firstview.module.css";
+import styles from "./FirstView.module.css";
 import Topfb from "../../../assets/Fb01.jpg";
 
 export default function FirstView() {
